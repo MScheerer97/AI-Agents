@@ -15,6 +15,7 @@ By accessing your SQL database, the chatbot gives accurate responses & provides 
 
 ## How to use the template
 Here I will outline how anyone can implement the solution.
+Note: In this project I used Python version 3.9.23
 
 ### Adjustments Needed 
 
@@ -34,6 +35,10 @@ Here you need to adjust many things:
 - Provide *many example prompts with the correct SQL query*, especially for frequent & complex queries.
 - Adjust answer prompt accordingly
 
+#### 2.3 Streamlit App 
+Depending on your needs, you might need to adjust the design and functionality especially in the sidebar. 
+If you need additional pages, just add the .py files in the pages folder.
+
 ### 3. odbc.ini & odbcinst.ini
 Also adjust your credentials here. 
 This basically ensures the SQL driver installation in the container runs smoothly.
@@ -47,6 +52,7 @@ If your driver is different, adjust driver installation and change the file name
 
 ### 5. manifest.yaml (OPTIONAL: Cloud Foundry)
 Adjust again all the credentials and add the Docker image registry link.
+
 
 
 
