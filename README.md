@@ -34,7 +34,7 @@ Here you need to adjust many things:
 - Provide *many example prompts with the correct SQL query*, especially for frequent & complex queries.
 - Adjust answer prompt accordingly
 
-### 3. odbc.ini
+### 3. odbc.ini & odbcinst.ini
 Also adjust your credentials here. 
 This basically ensures the SQL driver installation in the container runs smoothly.
 If the your driver is different, adjust.
@@ -47,6 +47,7 @@ If your driver is different, adjust driver installation and change the file name
 
 ### 5. manifest.yaml (OPTIONAL: Cloud Foundry)
 Adjust again all the credentials and add the Docker image registry link.
+
 
 
 
