@@ -4,6 +4,9 @@
 ## Project Overview
 This project was created to automate inquiries & support ad-hoc data analytics.
 By accessing your SQL database, the chatbot gives accurate responses & provides the raw data in an excel file ready to download.
+You can find two scripts in the repository. 
+1. SQL_Assistant.py: simple SQL agent which tries to get data from SQL no matter the prompt
+2. LangGraph_Template.py: flexible SQL agent accessing multiple data sources and able to react to simple questions, not related to SQL such as "How to use this chatbot?".
 
 ### Requirements
 - Azure OpenAI API Key
@@ -63,4 +66,5 @@ Adjust again all the credentials and add the Docker image registry link.
 ### 7. config.yaml (OPTIONAL: streamlit authentication)
 
 Adjust to set your user & password
+
 
