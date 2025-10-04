@@ -11,7 +11,7 @@ By accessing your SQL database, the chatbot gives accurate responses & provides 
 - Docker & Cloud Environment (in my case: Cloud Foundry)
 
 ## Project Workflow
-
+![Workflow](<images/Workflow.png>)
 
 ## How to use the template
 Here I will outline how anyone can implement the solution.
@@ -61,4 +61,5 @@ If your driver is different, adjust driver installation and change the file name
 Adjust again all the credentials and add the Docker image registry link.
 
 ### 7. config.yaml (OPTIONAL: streamlit authentication)
+
 Adjust to set your user & password
