@@ -1,0 +1,13 @@
+# config.yaml
+cookie_name: "sql_chatbot_cookie"
+cookie_key: "123" 
+cookie_expiry_days: 9999
+
+preauthorized:
+  emails: [] # Leave empty if no preauthorized emails needed
+
+credentials:
+  usernames:
+    Chatbot_User: 
+      name: "Chatbot User"
+      password: ""

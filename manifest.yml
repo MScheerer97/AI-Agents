@@ -1,20 +1,23 @@
 applications:
-- name: sql_chatbot
+- name: 
   docker:
-    image: XXX_docker_registry_location
-    username: XXX
+    image: 
+    username: 
   env:
     DB_DRIVER: "ODBC Driver 17 for SQL Server"
-    DB_SERVER: "XXX"
-    DB_DATABASE: "XXX"
-    SQL_USERNAME: "XXX"
-    SQL_PASSWORD: "XXX"
-    AZURE_OPENAI_API_KEY: "ABCD1234"
-    AZURE_OPENAI_ENDPOINT: "XXX"
+    DB_SERVER: ""
+    DB_DATABASE: ""
+    SQL_USERNAME: ""
+    SQL_PASSWORD: ""
+    AZURE_OPENAI_API_KEY: ""
+    AZURE_OPENAI_ENDPOINT: ""
     AZURE_OPENAI_MODEL: "gpt-4o"
     AZURE_OPENAI_DEPLOYMENT: "gpt-4o"
-    AZURE_OPENAI_API_VERSION: "XXX"
-  memory: 512M
+    AZURE_OPENAI_API_VERSION: ""
+    SHAREPOINT_CLIENT_SECRET: ""
+    SHAREPOINT_TENANT_ID: ""
+    SHAREPOINT_CLIENT_ID: ""
+  memory: 1024M
   disk_quota: 2G
   health-check-type: process
   instances: 1

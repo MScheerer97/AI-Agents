@@ -25,9 +25,11 @@ COPY requirements.txt .
 # Install the required Python packages
 RUN pip install --no-cache-dir -r requirements.txt
 
+# Copy configuration files
+COPY config.yaml .
+
 # Copy the rest of the application code into the container
 COPY . .
-
 
 # Expose the port that Streamlit will run on
 EXPOSE 8501
